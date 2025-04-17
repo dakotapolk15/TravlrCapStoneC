@@ -1,0 +1,153 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = travlr
+build_property.RootNamespace = travlr
+build_property.ProjectDir = C:\Users\dakot\source\repos\travlr\travlr\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\dakot\source\repos\travlr\travlr
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/dakot/source/repos/travlr/travlr/Admin/Pages/AddTrip.razor]
+build_metadata.AdditionalFiles.TargetPath = QWRtaW5cUGFnZXNcQWRkVHJpcC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dakot/source/repos/travlr/travlr/Admin/Pages/EditTrip.razor]
+build_metadata.AdditionalFiles.TargetPath = QWRtaW5cUGFnZXNcRWRpdFRyaXAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dakot/source/repos/travlr/travlr/Admin/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = QWRtaW5cUGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dakot/source/repos/travlr/travlr/Admin/Pages/Navbar.razor]
+build_metadata.AdditionalFiles.TargetPath = QWRtaW5cUGFnZXNcTmF2YmFyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dakot/source/repos/travlr/travlr/Backend/Services/TripCard.razor]
+build_metadata.AdditionalFiles.TargetPath = QmFja2VuZFxTZXJ2aWNlc1xUcmlwQ2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dakot/source/repos/travlr/travlr/Backend/Services/TripListing.razor]
+build_metadata.AdditionalFiles.TargetPath = QmFja2VuZFxTZXJ2aWNlc1xUcmlwTGlzdGluZy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dakot/source/repos/travlr/travlr/Frontend/App.razor]
+build_metadata.AdditionalFiles.TargetPath = RnJvbnRlbmRcQXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dakot/source/repos/travlr/travlr/Frontend/Components/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = RnJvbnRlbmRcQ29tcG9uZW50c1xOYXZNZW51LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dakot/source/repos/travlr/travlr/Frontend/Components/TripCard.razor]
+build_metadata.AdditionalFiles.TargetPath = RnJvbnRlbmRcQ29tcG9uZW50c1xUcmlwQ2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dakot/source/repos/travlr/travlr/Frontend/Main.razor]
+build_metadata.AdditionalFiles.TargetPath = RnJvbnRlbmRcTWFpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dakot/source/repos/travlr/travlr/Frontend/Pages/AddTrip.razor]
+build_metadata.AdditionalFiles.TargetPath = RnJvbnRlbmRcUGFnZXNcQWRkVHJpcC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dakot/source/repos/travlr/travlr/Frontend/Pages/Contact.razor]
+build_metadata.AdditionalFiles.TargetPath = RnJvbnRlbmRcUGFnZXNcQ29udGFjdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dakot/source/repos/travlr/travlr/Frontend/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = RnJvbnRlbmRcUGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dakot/source/repos/travlr/travlr/Frontend/Pages/Meal.razor]
+build_metadata.AdditionalFiles.TargetPath = RnJvbnRlbmRcUGFnZXNcTWVhbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dakot/source/repos/travlr/travlr/Frontend/Pages/News.razor]
+build_metadata.AdditionalFiles.TargetPath = RnJvbnRlbmRcUGFnZXNcTmV3cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dakot/source/repos/travlr/travlr/Frontend/Pages/TripListing.razor]
+build_metadata.AdditionalFiles.TargetPath = RnJvbnRlbmRcUGFnZXNcVHJpcExpc3RpbmcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dakot/source/repos/travlr/travlr/Frontend/Pages/Welcome.razor]
+build_metadata.AdditionalFiles.TargetPath = RnJvbnRlbmRcUGFnZXNcV2VsY29tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dakot/source/repos/travlr/travlr/Frontend/Shared/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = RnJvbnRlbmRcU2hhcmVkXEVycm9yLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dakot/source/repos/travlr/travlr/Frontend/Shared/Footer.razor]
+build_metadata.AdditionalFiles.TargetPath = RnJvbnRlbmRcU2hhcmVkXEZvb3Rlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dakot/source/repos/travlr/travlr/Frontend/Shared/Header.razor]
+build_metadata.AdditionalFiles.TargetPath = RnJvbnRlbmRcU2hhcmVkXEhlYWRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dakot/source/repos/travlr/travlr/Frontend/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = RnJvbnRlbmRcU2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dakot/source/repos/travlr/travlr/Frontend/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = RnJvbnRlbmRcU2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dakot/source/repos/travlr/travlr/Pages/About.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dakot/source/repos/travlr/travlr/Pages/Rooms.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9vbXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dakot/source/repos/travlr/travlr/Pages/Travel.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhdmVsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dakot/source/repos/travlr/travlr/Pages/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dakot/source/repos/travlr/travlr/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dakot/source/repos/travlr/travlr/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dakot/source/repos/travlr/travlr/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dakot/source/repos/travlr/travlr/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dakot/source/repos/travlr/travlr/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dakot/source/repos/travlr/travlr/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dakot/source/repos/travlr/travlr/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dakot/source/repos/travlr/travlr/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-0n8t0w2i26

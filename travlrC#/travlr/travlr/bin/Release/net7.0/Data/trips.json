@@ -1,0 +1,23 @@
+﻿[
+  {
+    "code": "HNL001",
+    "name": "Hawaii Getaway",
+    "length": "7 days",
+    "start": "2025-06-15",
+    "resort": "Waikiki Beach Resort",
+    "perPerson": "1500",
+    "image": "hawaii.jpg",
+    "description": "A relaxing week in Hawaii with all-inclusive resort stays."
+  },
+  {
+    "code": "BALI002",
+    "name": "Bali Adventure",
+    "length": "10 days",
+    "start": "2025-07-20",
+    "resort": "Bali Beach Club",
+    "perPerson": "1800",
+    "image": "bali.jpg",
+    "description": "Explore the natural beauty of Bali with guided tours and excursions."
+  }
+]
+

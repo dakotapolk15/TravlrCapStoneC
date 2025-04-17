@@ -1,0 +1,123 @@
+﻿
+
+
+@page "/edit-trip/{TripCode}"
+@inject NavigationManager Navigation
+@using travlr.Backend.Services
+@using travlr.Backend.Models
+@inject NavigationManager Navigation
+@inject TripDataService TripService
+@inject ITripService TripService
+
+<h2 class="text-center">Edit Trip</h2>
+
+@if (Trip == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <EditForm Model="Trip" OnValidSubmit="HandleSubmit">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="form-group">
+            <label>Code:</label>
+            <InputText @bind="Trip.Code" class="form-control" disabled />
+        </div>
+
+        <div class="form-group">
+            <label>Name:</label>
+            <InputText @bind="Trip.Name" class="form-control" />
+            <ValidationMessage For="@(() => Trip.Name)" />
+        </div>
+
+        <div class="form-group">
+            <label>Length:</label>
+            <InputText @bind="Trip.Length" class="form-control" />
+            <ValidationMessage For="@(() => Trip.Length)" />
+        </div>
+
+        <div class="form-group">
+            <label>Start Date:</label>
+            <InputDate @bind="Trip.StartDate" class="form-control" />
+            <ValidationMessage For="@(() => Trip.StartDate)" />
+        </div>
+
+        <div class="form-group">
+            <label>End Date:</label>
+            <InputDate @bind="Trip.EndDate" class="form-control" />
+            <ValidationMessage For="@(() => Trip.EndDate)" />
+        </div>
+
+        <div class="form-group">
+            <label>Resort:</label>
+            <InputText @bind="Trip.Resort" class="form-control" />
+            <ValidationMessage For="@(() => Trip.Resort)" />
+        </div>
+
+        <div class="form-group">
+            <label>Price Per Person:</label>
+            <InputNumber @bind="Trip.Price" class="form-control" />
+            <ValidationMessage For="@(() => Trip.Price)" />
+        </div>
+
+        <div class="form-group">
+            <label>Image Name:</label>
+            <InputText @bind="Trip.Image" class="form-control" />
+            <ValidationMessage For="@(() => Trip.Image)" />
+        </div>
+
+        <div class="form-group">
+            <label>Description:</label>
+            <InputTextArea @bind="Trip.Description" class="form-control" />
+            <ValidationMessage For="@(() => Trip.Description)" />
+        </div>
+
+        <button type="submit" class="btn btn-info">Save</button>
+    </EditForm>
+}
+
+@code {
+
+    [Parameter] public string TripCode { get; set; }
+
+    private TripModel Trip { get; set; } = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var tripData = await TripService.GetTripByCode(TripCode);
+        if (tripData !=null)
+        {
+            
+            Trip = new TripModel
+            {
+                    Id = tripData.Id,
+                    Name = tripData.Name,
+                    Destination = tripData.Destination,
+                    StartDate = tripData.StartDate,
+                    EndDate = tripData.EndDate,
+                    Price = tripData.Price
+
+
+            };
+        }
+    }
+
+    private async Task HandleSubmit()
+    {
+
+        var tripToUpdate = new Trip
+            {
+                Id = Trip.Id,
+                Name = Trip.Name,
+                Destination = Trip.Destination,
+                StartDate = Trip.StartDate,
+                EndDate = Trip.EndDate,
+                Price = Trip.Price
+            };
+
+        await TripService.UpdateTrip(tripToUpdate);
+        Navigation.NavigateTo("/");
+    }
+}

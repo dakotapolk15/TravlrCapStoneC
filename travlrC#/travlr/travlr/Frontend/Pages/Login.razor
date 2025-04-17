@@ -1,0 +1,52 @@
+﻿@inject NavigationManager Navigation
+@inject AuthenticationService AuthService
+@using travlr.Backend.Models
+
+
+<h2>Login</h2>
+
+@if (!string.IsNullOrEmpty(FormError))
+{
+    <div class="alert alert-danger">@FormError</div>
+}
+
+<div class="form-group">
+    <label>Email:</label>
+    <input @bind="Credentials.Email" class="form-control" />
+</div>
+
+<div class="form-group">
+    <label>Password:</label>
+    <input type="password" @bind="Credentials.Password" class="form-control" />
+</div>
+
+<button @onclick="OnLoginSubmit" class="btn btn-primary">Login</button>
+
+@code {
+    private string FormError = "";
+
+    private travlr.Backend.Models.UserCredentials Credentials = new();
+
+    private async Task OnLoginSubmit()
+    {
+        FormError = "";
+
+        if (string.IsNullOrWhiteSpace(Credentials.Email) || string.IsNullOrWhiteSpace(Credentials.Password))
+        {
+            FormError = "All fields are required, please try again";
+            return;
+        }
+
+        var success = await AuthService.Login(Credentials);
+        if (success)
+        {
+            Navigation.NavigateTo("/");
+        }
+        else
+        {
+            FormError = "Invalid credentials, please try again.";
+        }
+        
+
+    }
+}

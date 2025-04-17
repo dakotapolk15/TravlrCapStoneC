@@ -1,0 +1,49 @@
+﻿@inject AuthService AuthenticationService
+@inject NavigationManager Navigation
+@inject IJSRuntime JSRuntime  
+@using travlr.Backend.Service
+@using Microsoft.JSInterop
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Travlr</a>
+
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+            @if (AuthenticationService.IsLoggedIn(token))
+            {
+                <li class="nav-item">
+                    <a class="nav-link" href="#" @onclick="OnLogout">Logout</a>
+                </li>
+            }
+            else
+            {
+                <li class="nav-item">
+                    <a class="nav-link" href="/login">Login</a>
+                </li>
+            }
+        </ul>
+    </div>
+</nav>
+
+@code {
+    private string? token;
+    private bool isLoggedIn;
+
+    protected override async Task OnInitializedAsync()
+    {
+        token = await JSRuntime.InvokeAsync<string>("localStorage.getItem", "authToken"); 
+        isLoggedIn = !string.IsNullOrEmpty(token) && AuthenticationService.IsLoggedIn(token);
+    }
+}
+
+@if (isLoggedIn)
+{
+    <p>Welcome, User!</p>
+}
+else
+{
+    <p>Please log in.</p>
+}

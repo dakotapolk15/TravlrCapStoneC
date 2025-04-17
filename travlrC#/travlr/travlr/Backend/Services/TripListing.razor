@@ -1,0 +1,60 @@
+﻿@using Microsoft.AspNetCore.Components
+@using travlr.Backend.Models
+@inject TripDataService TripDataService
+@inject NavigationManager Navigation
+@inject AuthenticationService AuthService
+@inject Blazored.LocalStorage.ILocalStorageService LocalStorage
+
+
+@code {
+    private List<Trip> Trips { get; set; } = new();
+    private string Message { get; set; } = "";
+
+    
+
+    private async Task LoadTrips()
+    {
+        try
+        {
+            Trips = await TripDataService.GetTripsAsync();
+            if (Trips.Any())
+            {
+                Message = $"There are {Trips.Count} trips available.";
+            }
+            else
+            {
+                Message = "There were no trips retrieved from the database.";
+            }
+            Console.WriteLine(Message);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error: {ex.Message}");
+        }
+    }
+
+    private void AddTrip()
+    {
+        Navigation.NavigateTo("add-trip");
+    }
+
+    private bool isLoggedIn;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var token = await LocalStorage.GetItemAsync<string>("authToken"); // Retrieve token
+        isLoggedIn = AuthService.IsLoggedIn(token);  // Pass token to IsLoggedIn()
+    }
+}
+
+<h2>Trips</h2>
+<p>@Message</p>
+
+
+
+<div class="trip-listing">
+    @foreach (var trip in Trips)
+    {
+        <TripCard Trip="trip" />
+    }
+</div>

@@ -1,0 +1,381 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\obj\\Release\\net7.0\\scopedcss\\projectbundle\\travlr.bundle.scp.css",
+      "PackagePath": "staticwebassets\\travlr.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\images\\bg-adbox.png",
+      "PackagePath": "staticwebassets\\images\\bg-adbox.png"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\images\\bg-body.jpg",
+      "PackagePath": "staticwebassets\\images\\bg-body.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\images\\bg-box.png",
+      "PackagePath": "staticwebassets\\images\\bg-box.png"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\images\\bg-foodDetail.png",
+      "PackagePath": "staticwebassets\\images\\bg-foodDetail.png"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\images\\bg-foodInfos.png",
+      "PackagePath": "staticwebassets\\images\\bg-foodInfos.png"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\images\\bg-menu.png",
+      "PackagePath": "staticwebassets\\images\\bg-menu.png"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\images\\bg-navigation.png",
+      "PackagePath": "staticwebassets\\images\\bg-navigation.png"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\images\\bg-pattern.jpg",
+      "PackagePath": "staticwebassets\\images\\bg-pattern.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\images\\btn-send.png",
+      "PackagePath": "staticwebassets\\images\\btn-send.png"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\images\\buffet.jpg",
+      "PackagePath": "staticwebassets\\images\\buffet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\images\\content-box.png",
+      "PackagePath": "staticwebassets\\images\\content-box.png"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\images\\deluxe.jpg",
+      "PackagePath": "staticwebassets\\images\\deluxe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\images\\desserts.jpg",
+      "PackagePath": "staticwebassets\\images\\desserts.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\images\\dive-site.png",
+      "PackagePath": "staticwebassets\\images\\dive-site.png"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\images\\first-class.jpg",
+      "PackagePath": "staticwebassets\\images\\first-class.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\images\\food.png",
+      "PackagePath": "staticwebassets\\images\\food.png"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\images\\icons.png",
+      "PackagePath": "staticwebassets\\images\\icons.png"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\images\\kayak.jpg",
+      "PackagePath": "staticwebassets\\images\\kayak.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\images\\reef1.jpg",
+      "PackagePath": "staticwebassets\\images\\reef1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\images\\reef2.jpg",
+      "PackagePath": "staticwebassets\\images\\reef2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\images\\reef3.jpg",
+      "PackagePath": "staticwebassets\\images\\reef3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\images\\rooms.png",
+      "PackagePath": "staticwebassets\\images\\rooms.png"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\images\\sea-sound.jpg",
+      "PackagePath": "staticwebassets\\images\\sea-sound.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\images\\seafoods.jpg",
+      "PackagePath": "staticwebassets\\images\\seafoods.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\images\\searchbar.png",
+      "PackagePath": "staticwebassets\\images\\searchbar.png"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\images\\suite.jpg",
+      "PackagePath": "staticwebassets\\images\\suite.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dakot\\source\\repos\\travlr\\travlr\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.travlr.props",
+      "PackagePath": "build\\travlr.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.travlr.props",
+      "PackagePath": "buildMultiTargeting\\travlr.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.travlr.props",
+      "PackagePath": "buildTransitive\\travlr.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.travlr.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

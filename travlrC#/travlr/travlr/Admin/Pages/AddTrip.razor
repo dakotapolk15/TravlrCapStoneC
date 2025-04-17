@@ -1,0 +1,82 @@
+﻿
+@page "/add-trip"
+@inject HttpClient Http
+@inject NavigationManager Navigation
+
+
+
+<h2 class="text-center">Add Trip</h2>
+
+<EditForm Model="trip" OnValidSubmit="HandleSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label>Code:</label>
+        <InputText @bind="trip.Code" class="form-control" />
+        <span class="text-danger" if="@submitted && string.IsNullOrEmpty(trip.Code)">Trip Code is required</span>
+    </div>
+
+    <div class="form-group">
+        <label>Name:</label>
+        <InputText @bind="trip.Name" class="form-control" />
+        <span class="text-danger" if="@submitted && string.IsNullOrEmpty(trip.Name)">Name is required</span>
+    </div>
+
+    <div class="form-group">
+        <label>Length:</label>
+        <InputText @bind="trip.Length" class="form-control" />
+        <span class="text-danger" if="@submitted && string.IsNullOrEmpty(trip.Length)">Length is required</span>
+    </div>
+
+    <div class="form-group">
+        <label>Start Date:</label>
+        <InputDate @bind="trip.Start" class="form-control" />
+        <span class="text-danger" if="@submitted && trip.Start == default">Date is required</span>
+    </div>
+
+    <div class="form-group">
+        <label>Resort:</label>
+        <InputText @bind="trip.Resort" class="form-control" />
+        <span class="text-danger" if="@submitted && string.IsNullOrEmpty(trip.Resort)">Resort is required</span>
+    </div>
+
+    <div class="form-group">
+        <label>Per Person:</label>
+        <InputText @bind="trip.PerPerson" class="form-control" />
+        <span class="text-danger" if="@submitted && string.IsNullOrEmpty(trip.PerPerson)">Per Person is required</span>
+    </div>
+
+    <div class="form-group">
+        <label>Image Name:</label>
+        <InputText @bind="trip.Image" class="form-control" />
+        <span class="text-danger" if="@submitted && string.IsNullOrEmpty(trip.Image)">Image Name is required</span>
+    </div>
+
+    <div class="form-group">
+        <label>Description:</label>
+        <InputTextArea @bind="trip.Description" class="form-control" />
+        <span class="text-danger" if="@submitted && string.IsNullOrEmpty(trip.Description)">Description is required</span>
+    </div>
+
+    <button type="submit" class="btn btn-info">Save</button>
+</EditForm>
+
+@code {
+    private TripModel trip = new();
+    private bool submitted = false;
+
+    private async Task HandleSubmit()
+    {
+        submitted = true;
+        var response = await Http.PostAsJsonAsync("api/trips", trip);
+        if (response.IsSuccessStatusCode)
+        {
+            Navigation.NavigateTo("/");
+        }
+        else
+        {
+            Console.WriteLine("Error: " + response.ReasonPhrase);
+        }
+    }
+}

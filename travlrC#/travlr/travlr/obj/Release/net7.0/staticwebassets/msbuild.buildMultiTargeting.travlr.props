@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\travlr.props" />
+</Project>

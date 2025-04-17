@@ -1,0 +1,42 @@
+﻿@page "/"
+@inject NavigationManager Navigation
+@inject AuthenticationStateProvider AuthStateProvider
+@using Microsoft.AspNetCore.Components.Authorization
+
+<h1>Welcome to Travlr</h1>
+
+<p>
+    Explore amazing trips and adventures. Click below to see available trips.
+</p>
+
+<button class="btn btn-primary" @onclick="GoToTrips">View Trips</button>
+
+@if (!IsLoggedIn)
+{
+    <div class="container">
+        Please login to continue.
+    </div>
+}
+
+@code {
+    private bool IsLoggedIn { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authState = await AuthStateProvider.GetAuthenticationStateAsync();
+        IsLoggedIn = authState.User.Identity?.IsAuthenticated ?? false;
+    }
+
+    private void GoToTrips()
+    {
+        if (IsLoggedIn)
+        {
+            Navigation.NavigateTo("/trips");
+        }
+        else
+        {
+            // Optionally redirect to a login page
+            Navigation.NavigateTo("/login");
+        }
+    }
+}

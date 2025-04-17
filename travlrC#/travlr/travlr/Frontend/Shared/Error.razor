@@ -1,0 +1,19 @@
+﻿@page "/error"
+@code {
+    private string Message = "Something went wrong.";
+    private int Status = 500;
+    private string StackTrace = "No stack trace available.";
+
+    protected override void OnInitialized()
+    {
+        // Example: You can replace these with actual error-handling logic.
+        // This is just placeholder data.
+        Message = "An unexpected error occurred.";
+        Status = 404;
+        StackTrace = "System.NullReferenceException: Object reference not set...";
+    }
+}
+
+<h1>@Message</h1>
+<h2>Status Code: @Status</h2>
+<pre>@StackTrace</pre>

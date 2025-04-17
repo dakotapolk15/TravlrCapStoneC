@@ -1,0 +1,26 @@
+﻿
+@inherits LayoutComponentBase
+
+<head>
+
+    <title>@Title</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <Header />
+    <nav>
+        <NavMenu />
+    </nav>
+    
+    <div class="MainLayout">
+        @Body
+    </div>
+
+    <Footer />
+</body>
+
+
+@code {
+    private string Title { get; set; } = "Travlr"; // Default title
+}
+

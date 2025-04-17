@@ -1,0 +1,49 @@
+﻿@page "/trip-card"
+@using Microsoft.AspNetCore.Components
+@using travlr.Backend.Models
+@using travlr.Backend.Service
+@using Blazored.LocalStorage
+@inject NavigationManager Navigation
+@inject ILocalStorageService LocalStorage
+@inject AuthenticationService AuthService
+@inject ITripService TripService
+
+
+
+<div class="card">
+    <img src="@Trip.Image" class="card-img-top" alt="Trip Image">
+    <div class="card-body">
+        <h5 class="card-title">@Trip.Name</h5>
+        <p class="card-text">@Trip.Description</p>
+        <p><strong>Price:</strong> $@Trip.PerPerson</p>
+        <p><strong>Resort:</strong> @Trip.Resort</p>
+        <p><strong>Start Date:</strong> @Trip.StartDate.ToShortDateString()</p>
+        <p><strong>Length:</strong> @Trip.Length days</p>
+
+        @if (IsLoggedIn)
+        {
+            <button class="btn btn-primary" @onclick="() => EditTrip(Trip)">Edit Trip</button>
+        }
+    </div>
+</div>
+
+@code {
+
+    private string Token;
+    private bool IsLoggedIn = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        Token = await LocalStorage.GetItemAsStringAsync("authToken"); // Retrieve token
+        IsLoggedIn = AuthService.IsLoggedIn(Token); // Pass token to method
+    }
+
+    [Parameter]
+    public Trip Trip { get; set; }
+    private async Task EditTrip(Trip trip)
+    {
+        await LocalStorage.RemoveItemAsync("tripCode");
+        await LocalStorage.SetItemAsync("tripCode", trip.Code);
+        Navigation.NavigateTo("edit-trip");
+    }
+}
